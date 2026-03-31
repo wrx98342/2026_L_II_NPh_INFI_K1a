@@ -28,7 +28,7 @@ def plain_text(msg, imie):
     return imie + ' ' + msg
 
 
-def plain_text_upper_case_case(msg, imie):
+def plain_text_upper_case(msg, imie):
     return plain_text(msg.upper(), imie.upper())
 
 
